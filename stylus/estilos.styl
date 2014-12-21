@@ -1,0 +1,124 @@
+@import "normalize.styl"
+@import "fonts.styl"
+gris_oscuro = #333333
+gris_claro = #818181
+a
+	text-decoration none
+body
+	font-family 'Varela Round' sans-serif
+	font-size 16px
+img
+	vertical-align top
+figure
+	margin: 0px
+	
+.button-menu
+	color gris_oscuro
+	position absolute
+	top 50%
+	position absolute
+	margin-top -10px
+//oocss classes
+.container
+	padding 1.4rem
+	font-size 0
+	text-align center
+.boder-bottom
+	border-bottom 1px solid gris_claro
+.name
+	color gris_oscuro
+.menu
+	display none
+.relative
+	position relative
+.author
+	color gris_claro	
+.header
+	height 3.5em
+	// a 
+	// 	display none
+	.title
+		font-size 1.1em
+		text-align center
+		margin 0
+		line-height 3.5em
+		
+.song
+	display inline-block
+	font-size 1rem
+	width: 8rem
+	margin-bottom 1em
+	margin-right 1em
+	text-align left
+	&:nth-child(even)
+		margin-right 0
+	p 
+		margin .5em 0
+		
+.center-block
+	margin 0 auto 
+.center-text
+	text-align center
+
+.actions
+	position absolute
+	bottom 0
+	left 0
+	right 0
+	background rgba(black,.3)
+	
+.action
+	color white
+	margin-right .5em
+	font-size 1.2em 
+	&:last-child
+		margin-right 0
+	&.gray
+		color gris_oscuro
+.right-text
+	text-align right
+.padding
+	padding 1em
+.padding-tb
+	padding 1em 0
+.progress
+	margin 1em 0
+	position relative
+	.min 
+	.max
+		font-size .8em
+		position absolute
+		top -5px
+	.min
+		left 0
+	.max
+		right 0
+	.total
+		height 5px
+		border-radius 5px
+		background gris_claro
+		width 75%
+		margin 0 auto
+	.state
+		background red
+		border-radius 5px
+		height 5px
+		width 30%
+		position relative
+
+	.circle
+		background gris_oscuro
+		border-radius 50%
+		height 10px
+		width 10px
+		position absolute
+		right 0
+		top -2px
+		
+.relative 
+	position relative
+	
+.playing
+	&.small
+		width 20em	
+	
